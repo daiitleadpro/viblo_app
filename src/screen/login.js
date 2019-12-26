@@ -5,7 +5,7 @@ export class Login extends Component {
         return(
             <View style={{justifyContent:'center',alignItems:'center'}}>
                 <Text style={styles.textheader}>Login</Text>
-                <Text style={[styles.textheader,{fontSize:15,marginTop:2}]}>VIBLO</Text>
+                <Text style={[styles.textheader,{fontSize:15,marginTop:2}]}>VIBLOoo</Text>
             </View>
         )
     }
