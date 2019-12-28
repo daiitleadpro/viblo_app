@@ -179,6 +179,9 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-linear-gradient')
+    implementation 'com.facebook.android:facebook-login:[5,6)'
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
     implementation project(':react-native-gesture-handler')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
