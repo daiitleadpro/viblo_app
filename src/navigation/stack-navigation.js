@@ -9,7 +9,7 @@ import { View } from "react-native";
 const routeConfig = {
   Login: Login,
   Home: Home,
-  TodoList:TodoList
+  HomeList:TodoList
 }
 
 const stackNavigatorConfig = {

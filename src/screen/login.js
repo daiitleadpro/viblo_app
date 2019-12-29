@@ -32,7 +32,7 @@ export class Login extends Component {
     }
     loginGoogle = async () => {
         if(this.state.code === pinCode){
-            this.props.navigation.navigate('TodoList')
+            this.props.navigation.navigate('HomeList')
             this.setState({isModalVisible:false})
             
         }else{
@@ -41,6 +41,7 @@ export class Login extends Component {
     }
     
     render(){
+        //console.log('this.porps',this.props)
         return(
             <View style={{justifyContent:'center',alignItems:'center'}}>
                 <Text style={styles.textheader}>Login</Text>
