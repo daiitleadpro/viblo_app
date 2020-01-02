@@ -24,7 +24,7 @@ export class Login extends Component {
             alert('login failed')
         }
         else{
-            this.props.navigation.navigate('Home')
+            this.props.navigation.navigate('NewFeed')
         }
     }
     openModal = async () => {
@@ -56,7 +56,7 @@ export class Login extends Component {
                 />
                 <LinearGradient colors={['#5587ed', '#3f76e8', '#306ce6']} style = {styles.button}>
 
-                <TouchableOpacity >
+                <TouchableOpacity onPress = {() => this.props.navigation.navigate('NewFeed')}>
                     <Text style={{color:'white',fontWeight:'700'}}>Sign In</Text>
                 </TouchableOpacity>
                 </LinearGradient>
