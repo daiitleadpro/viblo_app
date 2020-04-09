@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">viablo_app</string>
+<<<<<<< HEAD
+=======
+    <string name="facebook_app_id">762414340917945</string> 
+    <string name="fb_login_protocol_scheme">fb762414340917945</string>
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 </resources>

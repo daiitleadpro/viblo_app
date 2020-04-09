@@ -4,6 +4,19 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+<<<<<<< HEAD
+=======
+		<key>AppAuth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>BVLinearGradient.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 		<key>DoubleConversion.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,11 +32,47 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+<<<<<<< HEAD
+=======
+		<key>FBSDKCoreKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKLoginKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FBSDKShareKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 		<key>Folly.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
+<<<<<<< HEAD
+=======
+		<key>GTMAppAuth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GTMSessionFetcher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleSignIn.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 		<key>Pods-viablo_app-tvOS.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -59,6 +108,29 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+<<<<<<< HEAD
+=======
+		<key>RNGoogleSignin.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNReanimated.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNScreens.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RNVectorIcons.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 		<key>React-Core.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -159,6 +231,14 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+<<<<<<< HEAD
+=======
+		<key>react-native-fbsdk.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict/>

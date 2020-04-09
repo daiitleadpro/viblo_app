@@ -3,11 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
+<<<<<<< HEAD
 	objectVersion = 46;
+=======
+	objectVersion = 52;
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 	objects = {
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* viablo_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* viablo_appTests.m */; };
+<<<<<<< HEAD
+=======
+		036DA91123B5E2C60086E669 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 036DA91023B5E2C60086E669 /* SwiftPackageProductDependency */; };
+		036DA91323B5E2C60086E669 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 036DA91223B5E2C60086E669 /* SwiftPackageProductDependency */; };
+		036DA91523B5E2C60086E669 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 036DA91423B5E2C60086E669 /* SwiftPackageProductDependency */; };
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -20,6 +30,25 @@
 		92CD64522C87E27FCEFFCB4A /* libPods-viablo_appTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7289FFBC182668425F9AFF3 /* libPods-viablo_appTests.a */; };
 		A06F34BEFFBF58C45AFECE42 /* libPods-viablo_app-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B7D8492E82CA52D9ED7CB /* libPods-viablo_app-tvOSTests.a */; };
 		C308F0A11663E80394352DC8 /* libPods-viablo_app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B65F9991410674D3ED8C28 /* libPods-viablo_app.a */; };
+<<<<<<< HEAD
+=======
+		1B6DCC406A5E46148262146C /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223FBE023CE0454C87F58DFA /* AntDesign.ttf */; };
+		295A751C11814FB3AA62439D /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F707A4AAE08F4DCFB4D328BB /* Entypo.ttf */; };
+		3E5CF8766EC54149855B4012 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8071D7D391AC4632B28FDD94 /* EvilIcons.ttf */; };
+		BD431A04E48A49C485B04399 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E80C896E1628403DBF0DF51E /* Feather.ttf */; };
+		B532F24B1BF04FEA8E7FD3F1 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 133F353A86D54CA794C97512 /* FontAwesome.ttf */; };
+		ADE047568C6C4E73AD6B4D18 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B5A792FE9F64B1084223A75 /* FontAwesome5_Brands.ttf */; };
+		69035788DBCC4C05A6BE2720 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AAE5B2AD07D43078A39D5EC /* FontAwesome5_Regular.ttf */; };
+		35E16C38C72B4EF4A0EBD431 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1691F9D22FD348D399909154 /* FontAwesome5_Solid.ttf */; };
+		AA8EC32D69544490AABC6015 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D4A3D64877D74EF0871D366C /* Fontisto.ttf */; };
+		CD0E12B99FC842AA83D2B778 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F82AFFC622C4366A6C56EB3 /* Foundation.ttf */; };
+		6B38E40BE8DA4406A9D1A3BF /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B161C0B2E3E4AE69ADC1384 /* Ionicons.ttf */; };
+		06490A7E737B499B8FF67EE5 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3EE48CDBE3F4969B8A66EAE /* MaterialCommunityIcons.ttf */; };
+		B4BF4467FB1445BBBD88BD2B /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8E06C7367EA4779A2A9824E /* MaterialIcons.ttf */; };
+		A6B8C1FA9FC94D118B0A9A5C /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12383E81965942A8B8995E13 /* Octicons.ttf */; };
+		9EF41C8B8E954A52B66F6D8D /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08F81B51B7F8409B80FC4D66 /* SimpleLineIcons.ttf */; };
+		4C26ABD7223B43CF8E0D2D1A /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C71904E090E648E896650018 /* Zocial.ttf */; };
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +96,25 @@
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F7289FFBC182668425F9AFF3 /* libPods-viablo_appTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-viablo_appTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7770E0F1D17FED7A37B204A /* Pods-viablo_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viablo_appTests.debug.xcconfig"; path = "Target Support Files/Pods-viablo_appTests/Pods-viablo_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		223FBE023CE0454C87F58DFA /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F707A4AAE08F4DCFB4D328BB /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8071D7D391AC4632B28FDD94 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E80C896E1628403DBF0DF51E /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		133F353A86D54CA794C97512 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7B5A792FE9F64B1084223A75 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5AAE5B2AD07D43078A39D5EC /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1691F9D22FD348D399909154 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D4A3D64877D74EF0871D366C /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2F82AFFC622C4366A6C56EB3 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2B161C0B2E3E4AE69ADC1384 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3EE48CDBE3F4969B8A66EAE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8E06C7367EA4779A2A9824E /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		12383E81965942A8B8995E13 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		08F81B51B7F8409B80FC4D66 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C71904E090E648E896650018 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +130,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				C308F0A11663E80394352DC8 /* libPods-viablo_app.a in Frameworks */,
+=======
+				036DA91323B5E2C60086E669 /* BuildFile in Frameworks */,
+				C308F0A11663E80394352DC8 /* libPods-viablo_app.a in Frameworks */,
+				036DA91523B5E2C60086E669 /* BuildFile in Frameworks */,
+				036DA91123B5E2C60086E669 /* BuildFile in Frameworks */,
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +235,10 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				39912F3D4AC39CD06875AFA3 /* Pods */,
+<<<<<<< HEAD
+=======
+				89BD81D390704FFE8D9BFAC4 /* Resources */,
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -197,6 +256,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		89BD81D390704FFE8D9BFAC4 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				223FBE023CE0454C87F58DFA /* AntDesign.ttf */,
+				F707A4AAE08F4DCFB4D328BB /* Entypo.ttf */,
+				8071D7D391AC4632B28FDD94 /* EvilIcons.ttf */,
+				E80C896E1628403DBF0DF51E /* Feather.ttf */,
+				133F353A86D54CA794C97512 /* FontAwesome.ttf */,
+				7B5A792FE9F64B1084223A75 /* FontAwesome5_Brands.ttf */,
+				5AAE5B2AD07D43078A39D5EC /* FontAwesome5_Regular.ttf */,
+				1691F9D22FD348D399909154 /* FontAwesome5_Solid.ttf */,
+				D4A3D64877D74EF0871D366C /* Fontisto.ttf */,
+				2F82AFFC622C4366A6C56EB3 /* Foundation.ttf */,
+				2B161C0B2E3E4AE69ADC1384 /* Ionicons.ttf */,
+				F3EE48CDBE3F4969B8A66EAE /* MaterialCommunityIcons.ttf */,
+				D8E06C7367EA4779A2A9824E /* MaterialIcons.ttf */,
+				12383E81965942A8B8995E13 /* Octicons.ttf */,
+				08F81B51B7F8409B80FC4D66 /* SimpleLineIcons.ttf */,
+				C71904E090E648E896650018 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,12 +315,24 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+<<<<<<< HEAD
+=======
+				FC858968A3FA342C339D39AF /* [CP] Copy Pods Resources */,
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = viablo_app;
+<<<<<<< HEAD
+=======
+			packageProductDependencies = (
+				036DA91023B5E2C60086E669 /* SwiftPackageProductDependency */,
+				036DA91223B5E2C60086E669 /* SwiftPackageProductDependency */,
+				036DA91423B5E2C60086E669 /* SwiftPackageProductDependency */,
+			);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 			productName = viablo_app;
 			productReference = 13B07F961A680F5B00A75B9A /* viablo_app.app */;
 			productType = "com.apple.product-type.application";
@@ -284,7 +382,11 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+<<<<<<< HEAD
 				LastUpgradeCheck = 0940;
+=======
+				LastUpgradeCheck = 940;
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -315,6 +417,12 @@
 				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
+<<<<<<< HEAD
+=======
+			packageReferences = (
+				036DA90F23B5E2C60086E669 /* RemoteSwiftPackageReference */,
+			);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -341,6 +449,25 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+<<<<<<< HEAD
+=======
+				1B6DCC406A5E46148262146C /* AntDesign.ttf in Resources */,
+				295A751C11814FB3AA62439D /* Entypo.ttf in Resources */,
+				3E5CF8766EC54149855B4012 /* EvilIcons.ttf in Resources */,
+				BD431A04E48A49C485B04399 /* Feather.ttf in Resources */,
+				B532F24B1BF04FEA8E7FD3F1 /* FontAwesome.ttf in Resources */,
+				ADE047568C6C4E73AD6B4D18 /* FontAwesome5_Brands.ttf in Resources */,
+				69035788DBCC4C05A6BE2720 /* FontAwesome5_Regular.ttf in Resources */,
+				35E16C38C72B4EF4A0EBD431 /* FontAwesome5_Solid.ttf in Resources */,
+				AA8EC32D69544490AABC6015 /* Fontisto.ttf in Resources */,
+				CD0E12B99FC842AA83D2B778 /* Foundation.ttf in Resources */,
+				6B38E40BE8DA4406A9D1A3BF /* Ionicons.ttf in Resources */,
+				06490A7E737B499B8FF67EE5 /* MaterialCommunityIcons.ttf in Resources */,
+				B4BF4467FB1445BBBD88BD2B /* MaterialIcons.ttf in Resources */,
+				A6B8C1FA9FC94D118B0A9A5C /* Octicons.ttf in Resources */,
+				9EF41C8B8E954A52B66F6D8D /* SimpleLineIcons.ttf in Resources */,
+				4C26ABD7223B43CF8E0D2D1A /* Zocial.ttf in Resources */,
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +605,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
+=======
+		FC858968A3FA342C339D39AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viablo_app/Pods-viablo_app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-viablo_app/Pods-viablo_app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-viablo_app/Pods-viablo_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -592,7 +739,15 @@
 				);
 				INFOPLIST_FILE = viablo_appTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+=======
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -612,7 +767,15 @@
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = viablo_appTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+=======
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -633,7 +796,14 @@
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 74S52X825L;
 				INFOPLIST_FILE = viablo_app/Info.plist;
+<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+=======
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -653,7 +823,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74S52X825L;
 				INFOPLIST_FILE = viablo_app/Info.plist;
+<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+=======
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -679,7 +856,14 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "viablo_app-tvOS/Info.plist";
+<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+=======
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -707,7 +891,14 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "viablo_app-tvOS/Info.plist";
+<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+=======
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -734,7 +925,15 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "viablo_app-tvOSTests/Info.plist";
+<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+=======
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -761,7 +960,15 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "viablo_app-tvOSTests/Info.plist";
+<<<<<<< HEAD
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+=======
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -923,6 +1130,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+<<<<<<< HEAD
+=======
+
+/* Begin XCRemoteSwiftPackageReference section */
+		036DA90F23B5E2C60086E669 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.13.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		036DA91023B5E2C60086E669 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036DA90F23B5E2C60086E669 /* RemoteSwiftPackageReference */;
+			productName = FacebookCore;
+		};
+		036DA91223B5E2C60086E669 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036DA90F23B5E2C60086E669 /* RemoteSwiftPackageReference */;
+			productName = FacebookLogin;
+		};
+		036DA91423B5E2C60086E669 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 036DA90F23B5E2C60086E669 /* RemoteSwiftPackageReference */;
+			productName = FacebookShare;
+		};
+/* End XCSwiftPackageProductDependency section */
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
 }

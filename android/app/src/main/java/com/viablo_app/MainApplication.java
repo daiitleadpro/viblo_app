@@ -4,13 +4,23 @@ import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+<<<<<<< HEAD
+=======
+import com.oblador.vectoricons.VectorIconsPackage;
+import com.swmansion.reanimated.ReanimatedPackage;
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
+<<<<<<< HEAD
 
+=======
+import com.facebook.FacebookSdk;
+import com.BV.LinearGradient.LinearGradientPackage;
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 public class MainApplication extends Application implements ReactApplication {
 
   private final ReactNativeHost mReactNativeHost =
@@ -46,6 +56,18 @@ public class MainApplication extends Application implements ReactApplication {
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this); // Remove this line if you don't want Flipper enabled
   }
+<<<<<<< HEAD
+=======
+  @Override
+  protected List<ReactPackage> getPackages() {
+    return Arrays.<ReactPackage>asList(
+    new MainReactPackage(),
+            new VectorIconsPackage(),
+            new ReanimatedPackage(),
+    new LinearGradientPackage() // <---- and This!
+  );
+}
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 
   /**
    * Loads Flipper in React Native templates.

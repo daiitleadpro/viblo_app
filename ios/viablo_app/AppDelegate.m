@@ -10,7 +10,11 @@
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
+<<<<<<< HEAD
 
+=======
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -27,9 +31,32 @@
   rootViewController.view = rootView;
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
+<<<<<<< HEAD
   return YES;
 }
 
+=======
+  [[FBSDKApplicationDelegate sharedInstance] application:application
+    didFinishLaunchingWithOptions:launchOptions];
+  // Add any custom logic here.
+  return YES;
+}
+- (BOOL)application:(UIApplication *)application 
+            openURL:(NSURL *)url 
+            options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
+
+  BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+    openURL:url
+    sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+    annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
+  ];
+  // Add any custom logic here.
+  return handled;
+}
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+  [FBSDKAppEvents activateApp];
+}
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
 - (NSURL *)sourceURLForBridge:(RCTBridge *)bridge
 {
 #if DEBUG
@@ -39,4 +66,14 @@
 #endif
 }
 
+<<<<<<< HEAD
 @end
+=======
+
+    
+
+@end
+
+
+    
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524

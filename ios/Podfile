@@ -29,13 +29,24 @@ target 'viablo_app' do
   pod 'ReactCommon/jscallinvoker', :path => "../node_modules/react-native/ReactCommon"
   pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
   pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+<<<<<<< HEAD
 
+=======
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
   pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
 
+<<<<<<< HEAD
+=======
+  pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+>>>>>>> a8eb1fdf7a8096b57c60da504e764db8933cf524
   target 'viablo_appTests' do
     inherit! :search_paths
     # Pods for testing
